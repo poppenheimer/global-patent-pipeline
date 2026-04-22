@@ -11,6 +11,16 @@ real U.S. patent data from the USPTO PatentsView dataset (2015-2025).
 
 ## How to run
 
+## Clean Data Files
+The following sample files (10,000 rows each) are included:
+- `data/clean/clean_patents.csv`
+- `data/clean/clean_inventors.csv`
+- `data/clean/clean_companies.csv`
+- `data/clean/clean_locations.csv`
+
+> To generate the full dataset (millions of rows), download the raw files
+> from USPTO and run `scripts/cleaner.py`
+
 ### 1. Download data
 Download these files from https://patentsview.org/download/data-download-tables
 and place them in `data/raw/`:
