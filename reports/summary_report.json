@@ -1,0 +1,161 @@
+{
+  "total_patents": 3965456,
+  "total_inventors": 2309857,
+  "total_companies": 241939,
+  "top_inventors": [
+    {
+      "rank": 1,
+      "name": "Tao Luo",
+      "patents": 4370
+    },
+    {
+      "rank": 2,
+      "name": "Shunpei Yamazaki",
+      "patents": 2955
+    },
+    {
+      "rank": 3,
+      "name": "Junyi Li",
+      "patents": 2519
+    },
+    {
+      "rank": 4,
+      "name": "Frederick E. Shelton, IV",
+      "patents": 2438
+    },
+    {
+      "rank": 5,
+      "name": "Kangguo Cheng",
+      "patents": 2403
+    },
+    {
+      "rank": 6,
+      "name": "Peter Gaal",
+      "patents": 2385
+    },
+    {
+      "rank": 7,
+      "name": "Wanshi Chen",
+      "patents": 2256
+    },
+    {
+      "rank": 8,
+      "name": "Jonathan P. Ive",
+      "patents": 2136
+    },
+    {
+      "rank": 9,
+      "name": "Xiaoxia Zhang",
+      "patents": 2094
+    },
+    {
+      "rank": 10,
+      "name": "Esmael Hejazi Dinan",
+      "patents": 1855
+    }
+  ],
+  "top_companies": [
+    {
+      "rank": 1,
+      "name": "SAMSUNG DISPLAY CO., LTD.",
+      "patents": 109295
+    },
+    {
+      "rank": 2,
+      "name": "International Business Machines Corporation",
+      "patents": 73463
+    },
+    {
+      "rank": 3,
+      "name": "CANON KABUSHIKI KAISHA",
+      "patents": 35047
+    },
+    {
+      "rank": 4,
+      "name": "LG ELECTRONICS INC.",
+      "patents": 33168
+    },
+    {
+      "rank": 5,
+      "name": "Taiwan Semiconductor Manufacturing Company, Ltd.",
+      "patents": 31857
+    },
+    {
+      "rank": 6,
+      "name": "Apple Inc.",
+      "patents": 31337
+    },
+    {
+      "rank": 7,
+      "name": "QUALCOMM Incorporated",
+      "patents": 31290
+    },
+    {
+      "rank": 8,
+      "name": "Intel Corporation",
+      "patents": 27972
+    },
+    {
+      "rank": 9,
+      "name": "Microsoft Technology Licensing, LLC",
+      "patents": 24833
+    },
+    {
+      "rank": 10,
+      "name": "HUAWEI TECHNOLOGIES CO., LTD.",
+      "patents": 24764
+    }
+  ],
+  "top_countries": [
+    {
+      "rank": 1,
+      "country": "US",
+      "patents": 1917440
+    },
+    {
+      "rank": 2,
+      "country": "JP",
+      "patents": 551167
+    },
+    {
+      "rank": 3,
+      "country": "CN",
+      "patents": 342262
+    },
+    {
+      "rank": 4,
+      "country": "KR",
+      "patents": 264680
+    },
+    {
+      "rank": 5,
+      "country": "DE",
+      "patents": 223561
+    },
+    {
+      "rank": 6,
+      "country": "TW",
+      "patents": 142961
+    },
+    {
+      "rank": 7,
+      "country": "GB",
+      "patents": 112082
+    },
+    {
+      "rank": 8,
+      "country": "CA",
+      "patents": 104675
+    },
+    {
+      "rank": 9,
+      "country": "FR",
+      "patents": 92727
+    },
+    {
+      "rank": 10,
+      "country": "IN",
+      "patents": 83308
+    }
+  ]
+}

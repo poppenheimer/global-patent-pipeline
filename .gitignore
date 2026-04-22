@@ -1,0 +1,13 @@
+venv/
+data/raw/
+*.db
+__pycache__/
+data/clean/
+data/clean/clean_inventors.csv
+data/clean/clean_relationships.csv
+data/clean/clean_patents.csv
+data/clean/clean_applications.csv
+data/clean/clean_companies.csv
+data/clean/clean_inventors.csv
+data/clean/clean_relationships.csv
+data/clean/clean_patents.csv
