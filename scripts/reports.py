@@ -148,7 +148,7 @@ def make_charts(top_inv, top_co, top_countries, yearly):
     fig, ax = plt.subplots(figsize=(12, 7))
     df = top_inv.iloc[::-1]  # flip so highest is on top
     ax.barh(df["name"], df["patents"], color="steelblue")
-    ax.set_title("Top 10 Inventors by Patent Count (2015-2025)", fontsize=14, fontweight="bold")
+    ax.set_title("Top 10 Inventors by Patent Count (1976-2025)", fontsize=14, fontweight="bold")
     ax.set_xlabel("Number of Patents")
     plt.tight_layout()
     plt.savefig(REPORTS_DIR / "top_inventors_chart.png", dpi=150)
@@ -159,7 +159,7 @@ def make_charts(top_inv, top_co, top_countries, yearly):
     fig, ax = plt.subplots(figsize=(12, 7))
     df = top_co.iloc[::-1]
     ax.barh(df["name"], df["patents"], color="darkorange")
-    ax.set_title("Top 10 Companies by Patent Count (2015-2025)", fontsize=14, fontweight="bold")
+    ax.set_title("Top 10 Companies by Patent Count (1976-2025)", fontsize=14, fontweight="bold")
     ax.set_xlabel("Number of Patents")
     plt.tight_layout()
     plt.savefig(REPORTS_DIR / "top_companies_chart.png", dpi=150)
@@ -170,7 +170,7 @@ def make_charts(top_inv, top_co, top_countries, yearly):
     fig, ax = plt.subplots(figsize=(13, 5))
     ax.fill_between(yearly["year"], yearly["patents_granted"], alpha=0.3, color="green")
     ax.plot(yearly["year"], yearly["patents_granted"], color="green", linewidth=2)
-    ax.set_title("Patents Granted Per Year (2015-2025)", fontsize=14, fontweight="bold")
+    ax.set_title("Patents Granted Per Year (1976-2025)", fontsize=14, fontweight="bold")
     ax.set_xlabel("Year")
     ax.set_ylabel("Patents Granted")
     ax.grid(axis="y", linestyle="--", alpha=0.5)

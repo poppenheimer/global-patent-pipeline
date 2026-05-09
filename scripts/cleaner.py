@@ -18,10 +18,10 @@ def clean_patents():
     )
     print(f"  Loaded: {len(pat):,} rows")
 
-    # Keep only 2015 onwards
-    pat["year"] = pat["patent_date"].str[:4].astype(int, errors="ignore")
-    pat = pat[pat["year"] >= 2015]
-    print(f"  After 2015 filter: {len(pat):,} rows")
+    # Keep from 1976 onwards (PatentsView's earliest reliable year)
+    pat["year"] = pd.to_numeric(pat["patent_date"].str[:4], errors="coerce")
+    pat = pat[pat["year"] >= 1976]
+    print(f"  After 1976 filter: {len(pat):,} rows")
 
     pat.to_csv(CLEAN_DIR / "clean_patents.csv", index=False)
     print("  Saved clean_patents.csv")
